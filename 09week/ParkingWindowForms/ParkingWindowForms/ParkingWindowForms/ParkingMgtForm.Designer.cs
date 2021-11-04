@@ -161,4 +161,6 @@ namespace ParkingWindowForms
         private System.Windows.Forms.ListBox listBoxState;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lb_CarCount;
+    }
+}
 
