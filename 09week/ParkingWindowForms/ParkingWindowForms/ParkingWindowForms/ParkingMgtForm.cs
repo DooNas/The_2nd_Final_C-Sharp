@@ -68,6 +68,7 @@ namespace ParkingWindowForms
                     sb.Append(outTime);
                     listBoxState.Items.Add(sb.ToString());
                     cars.Remove(car);
+                    cdoCarList.Text = "";
 
                     MessageBox.Show(
                         "출차\n입고 시간 : " + car.GetInTime().ToString() +
